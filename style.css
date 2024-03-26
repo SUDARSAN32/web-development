@@ -1,0 +1,25 @@
+body{
+    font-family: "Ranga", cursive;
+    background-color: rgb(149, 0, 255);
+}
+*{
+    padding: 0%;
+    margin:0px;
+}
+.titlebar{
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    padding:10px;
+    justify-content:space-evenly;
+    
+}
+.container div{
+    width:200px;
+    margin: 40px;
+    flex-basis: 30px;
+}
